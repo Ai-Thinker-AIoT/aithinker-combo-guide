@@ -12,7 +12,7 @@ main:
         timeout: 300
         expires: 600
       stages:
-        - name: 触发中英文文档构建
+        - name: 触发中文文档构建
           imports:
             - https://cnb.cool/aithinker/aithinker-combo-guide-build/-/blob/main/rtd.yml
           script: |
@@ -34,4 +34,3 @@ main:
               fi
             }
             trigger "中文文档 aithinker-combo-guide" "$RTD_ZH_URL" "$RTD_ZH_TOKEN"
-            trigger "英文文档 aithinker-combo-guide-en" "$RTD_EN_URL" "$RTD_EN_TOKEN"
