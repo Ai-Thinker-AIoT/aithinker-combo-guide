@@ -5,7 +5,7 @@
 # Required
 version: 2
 
-# 产出全部格式（pdf / epub / htmlzip）
+# 产出全部格式（pdf/epub/htmlzip）
 formats: all
 
 # Set the version of Python and other tools you might need
